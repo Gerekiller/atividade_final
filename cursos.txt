@@ -1,0 +1,4 @@
+1;matematica;uhul;500;126;123,
+2;portugues;aaaaaaaaaaaaaa;600;127;123,
+4;artes;artista;500;127;123,
+5;outro;aaa;500;127;

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane stylesheets="@css/estilo.css"
+      xmlns="http://javafx.com/javafx" 
+      xmlns:fx="http://javafx.com/fxml" 
+      prefHeight="450" prefWidth="1050"
+      fx:controller="ifpr.pgua.eic.listatelefonica.controllers.JanelaPrincipal"
+      >
+   <padding>
+      <Insets topRightBottomLeft="20"/>
+   </padding>
+
+   <left>
+      <VBox spacing="10.0" alignment="CENTER">
+         <padding>
+            <Insets topRightBottomLeft="20"/>
+         </padding>
+      
+         <Button text="Cadastrar aluno" prefWidth="200" onAction="#cadastrarAluno"/>
+         <Button text="Cadastrar professor" prefWidth="200" onAction="#cadastrarProfessor"/>
+         <Button text="Cadastrar curso" prefWidth="200" onAction="#cadastrarCurso"/>
+         <Button text="Matricular aluno" prefWidth="200" onAction="#matricularAluno"/>
+      </VBox>
+   </left>
+   <right>
+      <VBox spacing="10.0" alignment="CENTER">
+         <padding>
+            <Insets topRightBottomLeft="20"/>
+         </padding>
+
+         <Button text="Listar alunos" prefWidth="200" onAction="#listarAlunos"/>
+         <Button text="Listar professores" prefWidth="200" onAction="#listarProfessores"/>
+         <Button text="Listar cursos" prefWidth="200" onAction="#listarCursos"/>
+      </VBox>
+   </right>
+
+
+</BorderPane>

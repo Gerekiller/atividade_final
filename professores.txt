@@ -1,0 +1,3 @@
+126;Ignacio;ignacio@teste.com;123465;15.0
+127;Norberto;norberto@teste.com;135145615;17.0
+128;Rayane;rayane@teste.com;1365156;27.0

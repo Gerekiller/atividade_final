@@ -1,0 +1,20 @@
+.label {
+    -fx-font-weight: bold;
+    -fx-font-size: 15;	
+}
+
+.root{
+    -fx-background-color: rgb(12, 36, 152);
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+
+.button{
+    -fx-font-size: 15;
+    -fx-background-color: rgb(0, 0, 0);
+}
+
+.text-field{
+    -fx-background-color: "black";
+    -fx-font-weight: bold;
+}

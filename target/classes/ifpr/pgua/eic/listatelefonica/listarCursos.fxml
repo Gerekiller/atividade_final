@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<HBox xmlns="http://javafx.com/javafx/8.0.171" 
+      xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="ifpr.pgua.eic.listatelefonica.controllers.ListaDeCursos"
+      spacing="10.0"
+      >
+
+    <padding>
+        <Insets topRightBottomLeft="20.0"/>
+    </padding>
+
+    
+
+    
+    <VBox spacing="10.0">
+      <HBox spacing="5.0" alignment="CENTER">
+        <TextField fx:id="tfNome" prefWidth="200"/>
+        <Button text="Buscar" onAction="#buscar"/>
+      </HBox>
+      <ListView fx:id="ltvCursos" onMouseClicked="#mostrarDetalhes"/>
+    </VBox>
+    <VBox spacing="10.0">
+      <TextArea fx:id="taDetalhes" editable="false"/>
+    </VBox>
+
+</HBox>
